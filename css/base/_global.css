@@ -1,0 +1,15 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    color: #ffffff;
+}
+
+:root {
+    --amarelo: #abcc63;
+    --azul: #09167d;
+    --marrom: #682d0f;
+    --laranja: #a13003;
+}
