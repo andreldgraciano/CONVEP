@@ -25,8 +25,6 @@ window.addEventListener("resize", atualizarDimensoes);
 //ATUALIZAR A IMAGEM A CADA RESOLUÇAO
 function atualizarImagem() {
     var larguraDaJanela = window.innerWidth;
-    var alturaDaJanela = window.innerHeight;
-    var header = document.getElementsByClassName("header");
 
     var minhaImagem = document.getElementById("arvore");
 
@@ -34,8 +32,6 @@ function atualizarImagem() {
         minhaImagem.src = "./img/arvore-1366x619.svg";
     } else if (larguraDaJanela <= 600) {
         minhaImagem.src = "./img/arvore-mobile.svg";
-        var alturaNova = alturaDaJanela - 60;
-        header.style.height = alturaNova + "px";
     } else {
         minhaImagem.src = "./img/arvore-1920x931.svg";
     }
