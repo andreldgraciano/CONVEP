@@ -55,7 +55,7 @@
     .header {
         position: relative;
         overflow: hidden;
-        height: calc(100vh - 10px);
+        height: calc(100vh - 120px);
         width: 100%;
     }
 
