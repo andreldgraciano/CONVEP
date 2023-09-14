@@ -1,0 +1,48 @@
+@import url("../base/_colors.css");
+
+.navigation {
+    background-color: var(--marrom);
+    position: sticky;
+    top: 0px;
+    width: 100vw;
+    height: 80px;
+}
+
+.navigation .navigation__list {
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    margin-left: 10rem;
+    font-size: 2rem;
+}
+
+.navigation .navigation__list-item {
+    cursor: pointer;
+    padding: 30px 30px;
+}
+
+.navigation .navigation__list-link {
+    color: #fff;
+}
+
+@media screen and (max-width: 1366px) {
+    .navigation {
+        height: 60px;
+    }
+
+    .navigation .navigation__list-item {
+        cursor: pointer;
+        padding: 20px 20px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .navigation {
+        height: 60px;
+        top: 0px;
+    }
+
+    .navigation .navigation__list {
+        display: none;
+    }
+}

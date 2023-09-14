@@ -1,0 +1,74 @@
+.header {
+    position: relative;
+    overflow: hidden;
+    height: calc(100vh - 80px);
+    width: 100%;
+}
+
+.header__arvore {
+    position: absolute;
+    right: -400px;
+    bottom: calc(100vh - (100vh + 172px));
+    z-index: 2;
+}
+
+.header__logo {
+    background-image: url("../../img/logo-colorida.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 200px;
+    height: 200px;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+.header__title {
+    color: var(--marrom);
+}
+
+.header__description {
+    color: var(--azul);
+}
+
+@media screen and (max-width: 1366px) {
+    .header {
+        position: relative;
+        overflow: hidden;
+        height: calc(100vh - 260px);
+        width: 100%;
+    }
+
+    .header__arvore {
+        bottom: calc(100vh - (100vh + 110px));
+        right: -240px;
+    }
+
+    .header__logo {
+        width: 150px;
+        height: 150px;
+        margin-left: 5%;
+        margin-top: 5%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .header {
+        position: relative;
+        overflow: hidden;
+        height: 100vh;
+        width: 100%;
+    }
+
+    .header__arvore {
+        transform: scale(0.4);
+        bottom: calc(100vh - (100vh + 292px));
+        right: -200px;
+    }
+
+    .header__logo {
+        width: 100px;
+        height: 100px;
+        margin-left: 5%;
+        margin-top: 5%;
+    }
+}
