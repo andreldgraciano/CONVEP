@@ -55,12 +55,12 @@
     .header {
         position: relative;
         overflow: hidden;
-        height: calc(100vh - 60px);
+        height: calc(100vh - 10px);
         width: 100%;
     }
 
     .header__arvore {
-        transform: scale(0.4);
+        transform: scale(0.7);
         bottom: calc(100vh - (100vh + 293px));
         right: -200px;
     }
