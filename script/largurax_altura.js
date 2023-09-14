@@ -34,7 +34,7 @@ function atualizarImagem() {
         minhaImagem.src = "./img/arvore-1366x619.svg";
     } else if (larguraDaJanela <= 500) {
         minhaImagem.src = "./img/arvore-mobile.svg";
-        header.style.height = alturaDaJanela + "px";
+        header.style.height = alturaDaJanela / 2 + "px";
     } else {
         minhaImagem.src = "./img/arvore-1920x931.svg";
     }
