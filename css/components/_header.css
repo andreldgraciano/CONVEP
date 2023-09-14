@@ -60,8 +60,8 @@
     }
 
     .header__arvore {
-        transform: scale(0.7);
-        bottom: calc(100vh - (100vh + 293px));
+        transform: scale(0.5);
+        bottom: calc(100vh - (100vh + 50px));
         right: -200px;
     }
 
