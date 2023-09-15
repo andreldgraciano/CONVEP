@@ -34,7 +34,7 @@
     .footer .textos {
         flex-direction: column;
         margin: 30px 0;
-        gap: 20px;
+        gap: 30px;
     }
 
     .footer .logos {
