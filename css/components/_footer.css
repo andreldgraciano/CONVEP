@@ -28,3 +28,9 @@
     max-width: 100px;
     margin: 80px 0;
 }
+
+@media screen and (max-width: 450px) {
+    .footer .textos {
+        flex-direction: column;
+    }
+}
