@@ -33,4 +33,14 @@
     .footer .textos {
         flex-direction: column;
     }
+
+    .footer .logos {
+        gap: 30px;
+    }
+
+    .footer .logos img {
+        height: 60px;
+        max-width: 80px;
+        margin: 60px 0;
+    }
 }
