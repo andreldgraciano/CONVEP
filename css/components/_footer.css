@@ -32,6 +32,7 @@
 @media screen and (max-width: 450px) {
     .footer .textos {
         flex-direction: column;
+        padding: 40px 0;
     }
 
     .footer .logos {
