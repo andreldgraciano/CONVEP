@@ -7,8 +7,9 @@
 
 .header__arvore {
     position: absolute;
-    right: -400px;
-    bottom: calc(100vh - (100vh + 172px));
+    transform: scale(0.9);
+    right: -300px;
+    bottom: calc(100vh - (100vh + 205px));
     z-index: 2;
 }
 
@@ -39,8 +40,9 @@
     }
 
     .header__arvore {
-        bottom: calc(100vh - (100vh + 110px));
-        right: -240px;
+        transform: scale(0.6);
+        bottom: calc(100vh - (100vh + 317px));
+        right: -400px;
     }
 
     .header__logo {

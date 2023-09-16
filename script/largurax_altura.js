@@ -21,22 +21,3 @@ window.onload = function () {
 };
 
 window.addEventListener("resize", atualizarDimensoes);
-
-//ATUALIZAR A IMAGEM A CADA RESOLUÇAO
-function atualizarImagem() {
-    var larguraDaJanela = window.innerWidth;
-
-    var minhaImagem = document.getElementById("arvore");
-
-    if (larguraDaJanela <= 1366) {
-        minhaImagem.src = "./img/arvore-1366x619.svg";
-    } else if (larguraDaJanela <= 600) {
-        minhaImagem.src = "./img/arvore-mobile.svg";
-    } else {
-        minhaImagem.src = "./img/arvore-1920x931.svg";
-    }
-}
-
-window.onload = atualizarImagem;
-
-window.addEventListener("resize", atualizarImagem);
