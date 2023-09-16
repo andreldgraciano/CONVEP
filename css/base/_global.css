@@ -7,9 +7,3 @@ body {
     color: #000;
     overflow-x: hidden;
 }
-
-.altura__largura {
-    position: fixed;
-    inset: 0;
-    z-index: -1;
-}
