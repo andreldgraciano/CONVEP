@@ -1,7 +1,9 @@
 @import url("./base/_reset.css");
 @import url("./base/_fonts.css");
 @import url("./base/_global.css");
-@import url("./components/_header.css");
-@import url("./components/_navigation.css");
-@import url("./components/_main.css");
-@import url("./components/_footer.css");
+@import url("./layout/_header.css");
+@import url("./layout/_navigation.css");
+@import url("./layout/_main.css");
+@import url("./layout/_footer.css");
+@import url("./layout/_main__texts.css");
+@import url("./layout/_main__location.css");
