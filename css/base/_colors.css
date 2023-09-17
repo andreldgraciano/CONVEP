@@ -1,6 +1,9 @@
 :root {
-    --amarelo: #abcc63;
+    --verde: #abcc63;
+    --verde-escuro: #6c9a14;
     --azul: #09167d;
     --marrom: #682d0f;
+    --marrom-claro: #775545;
     --laranja: #a13003;
+    --laranja-vivo: #b23110;
 }

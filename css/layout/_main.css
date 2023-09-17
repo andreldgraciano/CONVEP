@@ -1,8 +1,30 @@
-.main {
+.article {
+    display: flex;
+    align-items: center;
+    margin: 5rem 15%;
+    font-family: "Roboto Mono", monospace;
+    gap: 10rem;
+}
+
+.article__container {
     display: flex;
     flex-direction: column;
 }
 
-.main p {
-    color: black;
+.article__titulo {
+    font-size: 3.4rem;
+    color: var(--verde);
+}
+
+.article__paragraph {
+    width: 70rem;
+    line-height: 2.9rem;
+    font-size: 1.6rem;
+}
+
+.article__img {
+    width: 40rem;
+    height: 40rem;
+    display: flex;
+    justify-content: center;
 }

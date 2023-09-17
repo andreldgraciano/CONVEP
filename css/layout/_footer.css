@@ -1,0 +1,39 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(236, 236, 236);
+    padding: 7rem 0;
+    gap: 7rem;
+}
+
+.footer .footer__pessoas {
+    display: flex;
+    justify-content: center;
+    gap: 23rem;
+}
+
+.footer .footer__comissao {
+    color: gray;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.footer .footer__comissao h2 {
+    font-size: 1.6rem;
+}
+
+.footer .footer__comissao span {
+    font-size: 1.2rem;
+}
+
+.footer .footer__logos {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.footer__logos-logo {
+    width: 10rem;
+    height: 10rem;
+}
