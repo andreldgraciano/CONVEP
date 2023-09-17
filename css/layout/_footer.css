@@ -37,3 +37,31 @@
     width: 10rem;
     height: 10rem;
 }
+
+@media screen and (max-width: 1366px) {
+    .footer {
+        padding: 4rem 0;
+        gap: 7rem;
+    }
+
+    .footer .footer__pessoas {
+        gap: 16rem;
+    }
+
+    .footer .footer__comissao {
+        gap: 1.2rem;
+    }
+
+    .footer .footer__comissao h2 {
+        font-size: 1.2rem;
+    }
+
+    .footer .footer__comissao span {
+        font-size: 1rem;
+    }
+
+    .footer__logos-logo {
+        width: 6rem;
+        height: 6rem;
+    }
+}

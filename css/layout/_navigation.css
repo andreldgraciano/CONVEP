@@ -38,4 +38,20 @@
     font-size: 2.4rem;
     font-family: "Roboto Mono", monospace;
     text-decoration: underline;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 1366px) {
+    .navigation {
+        margin-top: 5rem;
+    }
+
+    .class__li::after {
+        width: 0.2rem;
+        height: 1.2rem;
+    }
+
+    .class__a {
+        font-size: 1.6rem;
+    }
 }

@@ -4,6 +4,7 @@
     margin: 5rem 15%;
     font-family: "Roboto Mono", monospace;
     gap: 10rem;
+    justify-content: center;
 }
 
 .article__container {
@@ -27,4 +28,22 @@
     height: 40rem;
     display: flex;
     justify-content: center;
+}
+
+@media screen and (max-width: 1366px) {
+    .article {
+        margin: 5rem 0;
+        gap: 10rem;
+    }
+
+    .article__paragraph {
+        width: 50rem;
+        line-height: 2.5rem;
+        font-size: 1.4rem;
+    }
+
+    .article__img {
+        width: 30rem;
+        height: 30rem;
+    }
 }
