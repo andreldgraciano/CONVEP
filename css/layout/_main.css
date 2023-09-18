@@ -15,6 +15,7 @@
 .article__titulo {
     font-size: 3.4rem;
     color: var(--verde);
+    margin-bottom: 1rem;
 }
 
 .article__paragraph {
