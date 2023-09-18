@@ -47,3 +47,26 @@
         height: 30rem;
     }
 }
+
+@media screen and (max-width: 500px) {
+    .article {
+        margin: 5rem 0;
+        gap: 10rem;
+    }
+
+    .article__paragraph {
+        width: 35rem;
+        line-height: 2.5rem;
+        font-size: 1.4rem;
+        margin: 0 auto;
+    }
+
+    .article__img {
+        width: 30rem;
+        height: 30rem;
+    }
+
+    .mobile-hide {
+        display: none;
+    }
+}

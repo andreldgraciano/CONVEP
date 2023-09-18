@@ -55,3 +55,27 @@
         font-size: 1.6rem;
     }
 }
+
+@media screen and (max-width: 500px) {
+    .navigation {
+        margin-top: 5rem;
+    }
+
+    .class__ul {
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    .class__li::after {
+        width: 0.2rem;
+        height: 1.6rem;
+        top: 50%;
+        right: -1rem;
+        transform: translateY(-50%);
+    }
+
+    .class__a {
+        font-size: 1.4rem;
+    }
+}
