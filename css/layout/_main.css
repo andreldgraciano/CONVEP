@@ -21,6 +21,7 @@
     width: 70rem;
     line-height: 2.9rem;
     font-size: 1.6rem;
+    text-align: justify;
 }
 
 .article__img {
