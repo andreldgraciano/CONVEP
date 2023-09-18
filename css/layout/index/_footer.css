@@ -1,19 +1,18 @@
 .footer {
     display: flex;
     flex-direction: column;
-    background-color: rgb(236, 236, 236);
     padding: 7rem 0;
-    gap: 7rem;
+    gap: 19rem;
 }
 
 .footer .footer__pessoas {
     display: flex;
     justify-content: center;
-    gap: 23rem;
+    gap: 25rem;
 }
 
 .footer .footer__comissao {
-    color: gray;
+    color: rgba(0, 0, 0, 0.5);
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
@@ -25,6 +24,8 @@
 
 .footer .footer__comissao span {
     font-size: 1.2rem;
+    line-height: 1.6rem;
+    font-weight: 600;
 }
 
 .footer .footer__logos {
@@ -41,7 +42,7 @@
 @media screen and (max-width: 1366px) {
     .footer {
         padding: 4rem 0;
-        gap: 7rem;
+        gap: 10rem;
     }
 
     .footer .footer__pessoas {
@@ -58,11 +59,12 @@
 
     .footer .footer__comissao span {
         font-size: 1rem;
+        font-weight: 800;
     }
 
     .footer__logos-logo {
-        width: 6rem;
-        height: 6rem;
+        width: 10rem;
+        height: 10rem;
     }
 }
 
