@@ -68,11 +68,7 @@
     }
 
     .class__li::after {
-        width: 0.2rem;
-        height: 1.6rem;
-        top: 50%;
-        right: -1rem;
-        transform: translateY(-50%);
+        display: none;
     }
 
     .class__a {
