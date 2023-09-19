@@ -73,16 +73,17 @@
         margin: 4rem 0;
         gap: 7rem;
         width: 35rem;
+        margin: 0 auto;
     }
 
     .footer .footer__pessoas {
         gap: 4rem;
         flex-direction: column;
-        margin: 0 auto;
     }
 
     .footer .footer__comissao {
         gap: 1.2rem;
+        width: 35rem;
     }
 
     .footer .footer__comissao h2 {

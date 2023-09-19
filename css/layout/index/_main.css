@@ -105,7 +105,7 @@
     .map {
         margin: 2rem 0;
         width: 35rem;
-        align-content: center;
+        margin: 0 auto;
     }
 
     .map__map {
