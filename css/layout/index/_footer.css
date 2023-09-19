@@ -72,6 +72,7 @@
     .footer {
         padding: 4rem 0;
         gap: 7rem;
+        width: 35rem;
     }
 
     .footer .footer__pessoas {

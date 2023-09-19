@@ -103,8 +103,8 @@
     }
 
     .map {
-        margin-left: 5%;
-        margin: 2rem 0 6rem 16.6%;
+        margin: 2rem 0;
+        width: 35rem;
     }
 
     .map__map {
