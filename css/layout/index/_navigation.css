@@ -64,4 +64,8 @@
     .navigation {
         display: none;
     }
+
+    .navigation-mobile {
+        text-align: center;
+    }
 }
