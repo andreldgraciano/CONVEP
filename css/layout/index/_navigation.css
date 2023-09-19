@@ -73,10 +73,15 @@
     #botaoAbrirMenuMobile {
         color: #000;
         margin-left: 3rem;
+        width: 4rem;
+        height: 4rem;
     }
 
     #botaoFecharMenuMobile {
         caret-color: #fff;
+        margin-left: 3rem;
+        width: 4rem;
+        height: 4rem;
     }
 
     .navigation-mobile .navigation-mobile__open {
