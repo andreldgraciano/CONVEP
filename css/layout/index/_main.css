@@ -105,6 +105,7 @@
     .map {
         margin: 2rem 0;
         width: 35rem;
+        justify-content: center;
     }
 
     .map__map {
