@@ -101,4 +101,14 @@
     .mobile-hide {
         display: none;
     }
+
+    .map {
+        margin-left: 5%;
+        margin: 2rem 0 6rem 16.6%;
+    }
+
+    .map__map {
+        width: 350px;
+        height: 200px;
+    }
 }
