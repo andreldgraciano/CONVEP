@@ -82,7 +82,7 @@
     #botaoFecharMenuMobile {
         background-color: transparent;
     }
-    
+
     #botaoFecharMenuMobile img {
         width: 4rem;
         height: 4rem;
@@ -104,11 +104,11 @@
     .navigation-mobile .navigation-mobile__li {
         padding: 1rem;
         text-align: center;
+        border-bottom: 1px solid #000;
     }
 
     .navigation-mobile .navigation-mobile__a {
         color: #000;
         font-size: 2rem;
-        text-decoration: underline;
     }
 }
