@@ -80,12 +80,12 @@
     }
 
     #botaoFecharMenuMobile {
+        background-color: transparent;
+    }
+    
+    #botaoFecharMenuMobile img {
         width: 4rem;
         height: 4rem;
-    }
-
-    #botaoFecharMenuMobile img {
-        background-color: transparent;
     }
 
     .navigation-mobile .navigation-mobile__open {
