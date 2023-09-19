@@ -67,38 +67,24 @@
 
     .navigation-mobile {
         display: flex;
-        justify-content: space-around;
-    }
-
-    #botaoAbrirMenuMobile {
-        background-color: transparent;
-    }
-
-    #botaoAbrirMenuMobile img {
-        width: 4rem;
-        height: 4rem;
-    }
-
-    #botaoFecharMenuMobile {
-        background-color: transparent;
-    }
-
-    #botaoFecharMenuMobile img {
-        width: 4rem;
-        height: 4rem;
-    }
-
-    .navigation-mobile .navigation-mobile__open {
-        z-index: 4;
-        display: none;
         flex-direction: column;
         align-items: center;
-        gap: 1rem;
+    }
+
+    .navigation-mobile__toggle {
+        background-image: url("../../../img/icons/open-menu-mobile.svg");
+        width: 4rem;
+        height: 4rem;
     }
 
     .navigation-mobile .navigation-mobile__ul {
         display: flex;
         flex-direction: column;
+        height: 0;
+        width: 200px;
+        overflow: hidden;
+        transition: height 0.3s ease;
+        text-align: center;
     }
 
     .navigation-mobile .navigation-mobile__li {

@@ -1,19 +1,13 @@
-//btn-open-menu-mobile
-const botaoAbrirMenuMobile = document.getElementById("botaoAbrirMenuMobile");
-const menuMobileOpen = document.querySelector(".navigation-mobile__open");
+const toggleButton = document.getElementById("toggleButton");
+const animatedDiv = document.getElementById("animatedDiv");
+const buttonChange = document.getElementsByClassName(
+    ".navigation-mobile__toggle"
+);
 
-botaoAbrirMenuMobile.addEventListener("click", function () {
-    botaoAbrirMenuMobile.style.display = "none";
-    menuMobileOpen.style.display = "flex";
-});
-
-//btn-close-menu-mobile
-const botaoFecharMenuMobile = document.getElementById("botaoFecharMenuMobile");
-const menuMobileClose = document.querySelector(".navigation-mobile__open");
-
-
-botaoFecharMenuMobile.addEventListener("click", function () {
-    
-    menuMobileClose.style.display = "none";
-    botaoAbrirMenuMobile.style.display = "block";
+toggleButton.addEventListener("click", () => {
+    if (animatedDiv.clientHeight === 0) {
+        animatedDiv.style.height = "180px";
+    } else {
+        animatedDiv.style.height = "0";
+    }
 });
