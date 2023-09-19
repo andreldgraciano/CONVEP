@@ -79,10 +79,6 @@
         width: 10rem;
         height: 10rem;
     }
-
-    .footer__final {
-        width: 18rem;
-    }
 }
 
 @media screen and (max-width: 500px) {
@@ -125,9 +121,5 @@
     .footer__logos-logo:first-child {
         width: 9.5rem;
         height: 9.5rem;
-    }
-
-    .footer__final {
-        width: 18rem;
     }
 }
