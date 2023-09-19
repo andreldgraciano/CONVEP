@@ -3,6 +3,7 @@
     flex-direction: column;
     padding: 7rem 0;
     gap: 19rem;
+    color: rgba(0, 0, 0, 0.5);
 }
 
 .footer .footer__pessoas {
@@ -12,7 +13,6 @@
 }
 
 .footer .footer__comissao {
-    color: rgba(0, 0, 0, 0.5);
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
@@ -37,6 +37,19 @@
 .footer__logos-logo {
     width: 10rem;
     height: 10rem;
+}
+
+.footer__final {
+    font-size: 1.2rem;
+    width: 18rem;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.footer__final img {
+    margin: 0 0.4rem;
+    width: 1rem;
+    height: 1rem;
 }
 
 @media screen and (max-width: 1366px) {
@@ -65,6 +78,10 @@
     .footer__logos-logo {
         width: 10rem;
         height: 10rem;
+    }
+
+    .footer__final {
+        width: 18rem;
     }
 }
 
@@ -96,10 +113,21 @@
 
     .footer .footer__logos {
         gap: 2rem;
+        flex-direction: column;
+        align-items: center;
     }
 
     .footer__logos-logo {
         width: 6rem;
         height: 6rem;
+    }
+
+    .footer__logos-logo:first-child {
+        width: 9.5rem;
+        height: 9.5rem;
+    }
+
+    .footer__final {
+        width: 18rem;
     }
 }
