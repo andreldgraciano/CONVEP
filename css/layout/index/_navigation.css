@@ -66,33 +66,38 @@
     }
 
     .navigation-mobile {
-        position: relative;
         display: flex;
+        position: relative;
+    }
+
+    #botaoAbrirMenuMobile {
+        color: #000;
+        margin-left: 3rem;
+    }
+
+    #botaoFecharMenuMobile {
+        caret-color: #fff;
     }
 
     .navigation-mobile .navigation-mobile__open {
         position: absolute;
         inset: 0;
         width: 100%;
-        height: 100vh;
+        height: 200px;
         background-color: var(--laranja-vivo);
         z-index: 4;
         display: none;
         flex-direction: column;
-        align-items: center;
-        padding-top: 10rem;
-        gap: 10rem;
+        gap: 1rem;
     }
 
     .navigation-mobile .navigation-mobile__ul {
         display: flex;
         flex-direction: column;
-        row-gap: 3rem;
-        align-items: center;
     }
 
     .navigation-mobile .navigation-mobile__li {
-        padding: 2rem;
+        padding: 1rem;
     }
 
     .navigation-mobile .navigation-mobile__a {
