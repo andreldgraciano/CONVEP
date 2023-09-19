@@ -41,6 +41,10 @@
     font-weight: 600;
 }
 
+.navigation-mobile {
+    display: block;
+}
+
 @media screen and (max-width: 1366px) {
     .navigation {
         margin-top: 5rem;
@@ -58,20 +62,6 @@
 
 @media screen and (max-width: 500px) {
     .navigation {
-        margin-top: 1rem;
-    }
-
-    .class__ul {
-        display: flex;
-        justify-content: center;
-        gap: 0.5rem;
-    }
-
-    .class__li::after {
-        display: none;
-    }
-
-    .class__a {
-        font-size: 1.4rem;
+        display: block;
     }
 }
