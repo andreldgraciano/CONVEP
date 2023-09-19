@@ -62,6 +62,6 @@
 
 @media screen and (max-width: 500px) {
     .navigation {
-        display: block;
+        display: none;
     }
 }
