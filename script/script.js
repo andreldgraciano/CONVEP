@@ -45,16 +45,22 @@ if (
     backgrounds = backgroundsMobile;
 } else {
     const larguraDaTela = window.innerWidth;
-    if(larguraDaTela >1400) {
-
+    if (larguraDaTela > 1400) {
         backgrounds = backgroundsDesktop1900;
     } else {
         backgrounds = backgroundsDesktop1366;
     }
-
 }
 
 function changeBackground() {
+    if (backgrounds != backgroundsMobile) {
+        const larguraDaTela = window.innerWidth;
+        if (larguraDaTela > 1400) {
+            backgrounds = backgroundsDesktop1900;
+        } else {
+            backgrounds = backgroundsDesktop1366;
+        }
+    }
     header.style.backgroundImage = backgrounds[currentBackgroundIndex];
     currentBackgroundIndex = (currentBackgroundIndex + 1) % backgrounds.length;
 }
