@@ -28,6 +28,7 @@ const backgroundsDesktop1366 = [
 
 const backgroundsMobile = [
     "url(../../../img/bg-mobile-fall-1.svg)",
+    "url(../../../img/bg-mobile-fall-2.svg)",
     "url(../../../img/bg-mobile-galho.svg)",
     "url(../../../img/bg-mobile-fingerprint.svg)",
 ];
