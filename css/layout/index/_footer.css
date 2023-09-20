@@ -3,7 +3,7 @@
     flex-direction: column;
     padding: 7rem 0;
     gap: 19rem;
-    color: rgba(0, 0, 0, 0.5);
+    color: rgb(180,180,180);
 }
 
 .footer .footer__pessoas {

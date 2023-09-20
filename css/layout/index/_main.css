@@ -33,18 +33,17 @@
 }
 
 .map {
+    margin: 10rem auto;
     display: flex;
     flex-direction: column;
-    margin: 1rem 0 6rem 18.5%;
+    width: 120rem;
 }
 
-.map p {
+.map__texto {
     font-size: 1.2rem;
-    margin-bottom: 1rem;
-}
-
-.map p:nth-child(2) {
-    margin-bottom: 0;
+    margin-bottom: 1.6rem;
+    display: inline;
+    width: 120rem;
 }
 
 @media screen and (max-width: 1366px) {

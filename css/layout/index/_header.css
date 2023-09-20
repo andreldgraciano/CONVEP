@@ -1,23 +1,10 @@
 @import url("../../base/_colors.css");
 
-/* .header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-image: url(../..//img/fingerprints/fingerprints.svg);
-    background-repeat: no-repeat;
-    background-size: 60% 60%;
-    background-position: center 28rem;
-    height: 100vh;
-    font-family: "Noto Sans", sans-serif;
-    justify-content: center;
-} */
-
 .header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: url(../../../img/bg-galho-desktop.svg);
+    background-image: url(../../../img/bg-desktop-fingerprint.svg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -132,7 +119,7 @@
 
 @media screen and (max-width: 500px) {
     .header {
-        background-image: url(../../../img/bg-galho-mobile.svg);
+        background-image: url(../../../img/bg-mobile-fingerprint.svg);
         height: 85vh;
     }
 

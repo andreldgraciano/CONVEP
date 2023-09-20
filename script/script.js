@@ -11,3 +11,40 @@ toggleButton.addEventListener("click", () => {
         animatedDiv.style.height = "0";
     }
 });
+
+// Lista de imagens de fundo
+const backgroundsDesktop = [
+    "url(../../../img/bg-desktop-fall-1.svg)",
+    "url(../../../img/bg-desktop-fall-2.svg)",
+    "url(../../../img/bg-desktop-galho.svg)",
+    "url(../../../img/bg-desktop-fingerprint.svg)",
+];
+
+const backgroundsMobile = [
+    "url(../../../img/bg-mobile-fall-1.svg)",
+    "url(../../../img/bg-mobile-fall-2.svg)",
+    "url(../../../img/bg-mobile-galho.svg)",
+    "url(../../../img/bg-mobile-fingerprint.svg)",
+];
+
+const header = document.getElementById("header");
+let currentBackgroundIndex = 0;
+
+function changeBackground() {
+    let screenWidth = window.innerWidth;
+    let backgrounds = 0;
+
+    console.log(`A largura da tela é: ${screenWidth}px`);
+
+    if (screenWidth <= 700) {
+        backgrounds = backgroundsMobile;
+    } else {
+        backgrounds = backgroundsDesktop;
+    }
+
+    header.style.backgroundImage = backgrounds[currentBackgroundIndex];
+    currentBackgroundIndex = (currentBackgroundIndex + 1) % backgrounds.length;
+}
+
+// Iniciar a troca de fundo a cada 3 segundos
+setInterval(changeBackground, 2000);
