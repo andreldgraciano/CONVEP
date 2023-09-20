@@ -35,7 +35,7 @@ function changeBackground() {
 
     console.log(`A largura da tela é: ${screenWidth}px`);
 
-    if (screenWidth <= 700) {
+    if (screenWidth <= 1300) {
         backgrounds = backgroundsMobile;
     } else {
         backgrounds = backgroundsDesktop;
