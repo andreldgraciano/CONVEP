@@ -27,7 +27,7 @@ const backgroundsMobile = [
 
 const header = document.getElementById("header");
 let currentBackgroundIndex = 0;
-const backgrounds = "";
+var backgrounds;
 
 if (
     /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
