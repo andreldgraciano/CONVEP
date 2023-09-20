@@ -30,10 +30,11 @@ const header = document.getElementById("header");
 let currentBackgroundIndex = 0;
 
 function changeBackground() {
-    let screenWidth = window.innerWidth;
-    let backgrounds = 0;
-
-    if (screenWidth <= 1300) {
+    if (
+        /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
+            navigator.userAgent
+        )
+    ) {
         backgrounds = backgroundsMobile;
     } else {
         backgrounds = backgroundsDesktop;
