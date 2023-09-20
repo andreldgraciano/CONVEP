@@ -12,7 +12,6 @@ toggleButton.addEventListener("click", () => {
     }
 });
 
-// Lista de imagens de fundo
 const backgroundsDesktop = [
     "url(../../../img/bg-desktop-fall-1.svg)",
     "url(../../../img/bg-desktop-fall-2.svg)",
@@ -44,5 +43,4 @@ function changeBackground() {
     currentBackgroundIndex = (currentBackgroundIndex + 1) % backgrounds.length;
 }
 
-// Iniciar a troca de fundo a cada 3 segundos
 setInterval(changeBackground, 2000);
