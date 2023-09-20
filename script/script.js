@@ -12,11 +12,18 @@ toggleButton.addEventListener("click", () => {
     }
 });
 
-const backgroundsDesktop = [
-    "url(../../../img/bg-desktop-fall-1.svg)",
-    "url(../../../img/bg-desktop-fall-2.svg)",
-    "url(../../../img/bg-desktop-galho.svg)",
-    "url(../../../img/bg-desktop-fingerprint.svg)",
+const backgroundsDesktop1900 = [
+    "url(../../../img/bg-desktop1900-fall-1.svg)",
+    "url(../../../img/bg-desktop1900-fall-2.svg)",
+    "url(../../../img/bg-desktop1900-galho.svg)",
+    "url(../../../img/bg-desktop1900-fingerprint.svg)",
+];
+
+const backgroundsDesktop1366 = [
+    "url(../../../img/bg-desktop1366-fall-1.svg)",
+    "url(../../../img/bg-desktop1366-fall-2.svg)",
+    "url(../../../img/bg-desktop1366-galho.svg)",
+    "url(../../../img/bg-desktop1366-fingerprint.svg)",
 ];
 
 const backgroundsMobile = [
@@ -36,7 +43,14 @@ if (
 ) {
     backgrounds = backgroundsMobile;
 } else {
-    backgrounds = backgroundsDesktop;
+    const larguraDaTela = window.innerWidth;
+    if(larguraDaTela >1400) {
+
+        backgrounds = backgroundsDesktop1900;
+    } else {
+        backgrounds = backgroundsDesktop1366;
+    }
+
 }
 
 function changeBackground() {
