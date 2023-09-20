@@ -27,18 +27,19 @@ const backgroundsMobile = [
 
 const header = document.getElementById("header");
 let currentBackgroundIndex = 0;
+const backgrounds = "";
+
+if (
+    /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
+        navigator.userAgent
+    )
+) {
+    backgrounds = backgroundsMobile;
+} else {
+    backgrounds = backgroundsDesktop;
+}
 
 function changeBackground() {
-    if (
-        /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
-            navigator.userAgent
-        )
-    ) {
-        backgrounds = backgroundsMobile;
-    } else {
-        backgrounds = backgroundsDesktop;
-    }
-
     header.style.backgroundImage = backgrounds[currentBackgroundIndex];
     currentBackgroundIndex = (currentBackgroundIndex + 1) % backgrounds.length;
 }
