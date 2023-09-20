@@ -87,11 +87,6 @@
         margin: 0 auto;
     }
 
-    .article__img {
-        width: 30rem;
-        height: 30rem;
-    }
-
     .mobile-hide {
         display: none;
     }
