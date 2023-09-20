@@ -102,11 +102,11 @@
     }
 
     .map__texto {
-        width: 25rem;
+        width: 35rem;
     }
 
     .map__map {
-        width: 25rem;
+        width: 35rem;
         height: 20rem;
     }
 }
