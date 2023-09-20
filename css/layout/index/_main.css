@@ -102,9 +102,11 @@
     }
 
     .map {
-        margin: 2rem 0;
         width: 35rem;
-        margin: 0 auto;
+    }
+
+    .map__texto {
+        width: 35rem;
     }
 
     .map__map {
