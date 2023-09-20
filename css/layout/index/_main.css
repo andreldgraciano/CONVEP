@@ -97,16 +97,16 @@
     }
 
     .map {
-        width: 35rem;
+        width: 30rem;
         margin: 0 auto;
     }
 
     .map__texto {
-        width: 35rem;
+        width: 30rem;
     }
 
     .map__map {
-        width: 35rem;
+        width: 30rem;
         height: 20rem;
     }
 }
