@@ -15,7 +15,6 @@
 .article__titulo {
     font-size: 3.4rem;
     color: var(--verde);
-    margin-bottom: 1rem;
 }
 
 .article__paragraph {
@@ -23,6 +22,7 @@
     line-height: 2.9rem;
     font-size: 1.6rem;
     text-align: justify;
+    margin-top: 1.4rem;
 }
 
 .article__img {
@@ -51,14 +51,14 @@
     width: 120rem;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin: 15rem auto 10rem auto;
+    margin: 15rem auto 7rem auto;
     row-gap: 4rem;
     font-size: 1.6rem;
+    font-family: "Roboto Mono", monospace;
 }
 
 .main__programacao-resumos {
     width: 45rem;
-    font-family: "Roboto Mono", monospace;
     display: flex;
     flex-direction: column;
     gap: 2rem;
@@ -73,14 +73,26 @@
     line-height: 3.5rem;
 }
 
+.main__programacao-link {
+    text-align: center;
+    width: 100%;
+    text-decoration: underline;
+    font-weight: 600;
+    color: black;
+}
+
 @media screen and (max-width: 1366px) {
     .article {
         margin: 5rem 0;
-        gap: 10rem;
+        gap: 5rem;
+    }
+
+    .article__titulo {
+        width: 65rem;
     }
 
     .article__paragraph {
-        width: 50rem;
+        width: 65rem;
         line-height: 2.5rem;
         font-size: 1.4rem;
     }
@@ -91,13 +103,33 @@
     }
 
     .map {
-        margin: 0 auto;
-        width: 90rem;
+        margin: 10rem auto;
+        width: 100rem;
+    }
+
+    .map__texto {
+        width: 100rem;
     }
 
     .map__map {
-        width: 500px;
-        height: 450px;
+        width: 50rem;
+        height: 45rem;
+    }
+
+    .main__programacao {
+        width: 100rem;
+        margin: 10rem auto 5rem auto;
+        row-gap: 3rem;
+        font-size: 1.4rem;
+    }
+
+    .main__programacao-resumos {
+        width: 45rem;
+        gap: 1.5rem;
+    }
+
+    .main__programacao-item {
+        line-height: 3rem;
     }
 }
 
