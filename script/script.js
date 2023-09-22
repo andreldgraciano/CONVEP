@@ -1,3 +1,4 @@
+//menu animado
 const toggleButton = document.getElementById("toggleButton");
 const animatedDiv = document.getElementById("animatedDiv");
 const buttonChange = document.getElementsByClassName(
@@ -12,6 +13,27 @@ toggleButton.addEventListener("click", () => {
     }
 });
 
+//scroll smooth
+$(document).ready(function () {
+    $('a[href^="#"]').on("click", function (e) {
+        e.preventDefault();
+        var id = $(this).attr("href");
+        var $target = $(id);
+
+        if ($target.length) {
+            var targetOffset = $target.offset().top;
+
+            $("html, body").animate(
+                {
+                    scrollTop: targetOffset - 100,
+                },
+                2000
+            );
+        }
+    });
+});
+
+//mudanca de imagens
 const backgroundsDesktop1900 = [
     "url(../../../img/bg-desktop1900-fall-1.svg)",
     "url(../../../img/bg-desktop1900-fall-2.svg)",
