@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function () {
     links.forEach(function (link) {
         link.addEventListener("click", function (e) {
             e.preventDefault();
-            var id = this.getAttribute("href").substring(1); // Remove o caractere '#'
+            var id = this.getAttribute("href").substring(1);
             var target = document.getElementById(id);
 
             if (target) {
