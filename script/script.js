@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     target.getBoundingClientRect().top + window.scrollY;
 
                 window.scrollTo({
-                    top: targetOffset - 100,
+                    top: targetOffset - 50,
                     behavior: "smooth",
                 });
             }
