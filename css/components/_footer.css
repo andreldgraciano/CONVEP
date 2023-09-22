@@ -3,7 +3,7 @@
     flex-direction: column;
     padding: 7rem 0;
     color: rgb(180, 180, 180);
-    width: 120rem;
+    width: 100rem;
     margin: 2rem auto 5rem auto;
     gap: 10rem;
 }
@@ -17,6 +17,7 @@
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
+    width: 33%;
 }
 
 .footer .footer__comissao h2 {
@@ -25,8 +26,8 @@
 
 .footer .footer__comissao span {
     font-size: 1.2rem;
-    line-height: 1.6rem;
-    font-weight: 600;
+    line-height: 2rem;
+    font-weight: 500;
 }
 
 .footer .footer__logos {
@@ -68,12 +69,12 @@
     }
 
     .footer .footer__comissao h2 {
-        font-size: 1.2rem;
+        font-size: 1.4rem;
     }
 
     .footer .footer__comissao span {
-        font-size: 1rem;
-        font-weight: 800;
+        font-size: 1.2rem;
+        font-weight: 400;
     }
 
     .footer__logos-logo {

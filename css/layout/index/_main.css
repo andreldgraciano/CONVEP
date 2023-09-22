@@ -3,7 +3,6 @@
     align-items: center;
     margin: 5rem 15%;
     font-family: "Roboto Mono", monospace;
-    gap: 10rem;
     justify-content: center;
 }
 
@@ -21,13 +20,12 @@
     width: 70rem;
     line-height: 2.9rem;
     font-size: 1.6rem;
-    text-align: justify;
     margin-top: 1.4rem;
 }
 
 .article__img {
-    width: 40rem;
-    height: 40rem;
+    width: 30rem;
+    height: 30rem;
     display: flex;
     justify-content: center;
 }
@@ -36,7 +34,7 @@
     margin: 10rem auto;
     display: flex;
     flex-direction: column;
-    width: 120rem;
+    width: 100rem;
 }
 
 .map__texto {
@@ -48,7 +46,7 @@
 
 .main__programacao {
     display: flex;
-    width: 120rem;
+    width: 100rem;
     flex-wrap: wrap;
     justify-content: space-between;
     margin: 15rem auto 7rem auto;
