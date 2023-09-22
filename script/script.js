@@ -59,7 +59,6 @@ const backgroundsMobile = [
 ];
 
 const header = document.getElementById("header");
-const headerBefore = 
 let currentBackgroundIndex = 0;
 var backgrounds;
 
