@@ -4,7 +4,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: url(../../../img/bg-desktop-fingerprint.svg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

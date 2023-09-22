@@ -36,7 +36,6 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 
-
 //mudanca de imagens
 const backgroundsDesktop1900 = [
     "url(../../../img/bg-desktop1900-fall-1.svg)",
@@ -68,12 +67,18 @@ if (
         navigator.userAgent
     )
 ) {
+    header.style.backgroundImage =
+        "url(../../../img/bg-mobile-fingerprint.svg)";
     backgrounds = backgroundsMobile;
 } else {
     const larguraDaTela = window.innerWidth;
     if (larguraDaTela > 1400) {
+        header.style.backgroundImage =
+            "url(../../../img/bg-desktop1900-fingerprint.svg)";
         backgrounds = backgroundsDesktop1900;
     } else {
+        header.style.backgroundImage =
+            "url(../../../img/bg-desktop1366-fingerprint.svg)";
         backgrounds = backgroundsDesktop1366;
     }
 }
