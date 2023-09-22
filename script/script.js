@@ -14,24 +14,28 @@ toggleButton.addEventListener("click", () => {
 });
 
 //scroll smooth
-$(document).ready(function () {
-    $('a[href^="#"]').on("click", function (e) {
-        e.preventDefault();
-        var id = $(this).attr("href");
-        var $target = $(id);
+document.addEventListener("DOMContentLoaded", function () {
+    var links = document.querySelectorAll('a[href^="#"]');
 
-        if ($target.length) {
-            var targetOffset = $target.offset().top;
+    links.forEach(function (link) {
+        link.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substring(1); // Remove o caractere '#'
+            var target = document.getElementById(id);
 
-            $("html, body").animate(
-                {
-                    scrollTop: targetOffset - 100,
-                },
-                2000
-            );
-        }
+            if (target) {
+                var targetOffset =
+                    target.getBoundingClientRect().top + window.scrollY;
+
+                window.scrollTo({
+                    top: targetOffset - 100,
+                    behavior: "smooth",
+                });
+            }
+        });
     });
 });
+
 
 //mudanca de imagens
 const backgroundsDesktop1900 = [
