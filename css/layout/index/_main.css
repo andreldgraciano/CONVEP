@@ -168,4 +168,16 @@
         width: 35rem;
         height: 20rem;
     }
+
+    .main__programacao {
+        width: 35rem;
+    }
+
+    .main__programacao-resumos {
+        width: 35rem;
+    }
+
+    .main__programacao-item {
+        line-height: 2.8rem;
+    }
 }

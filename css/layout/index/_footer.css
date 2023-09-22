@@ -98,6 +98,7 @@
     .footer .footer__comissao {
         gap: 1.2rem;
         width: 35rem;
+        text-align: center;
     }
 
     .footer .footer__comissao h2 {
