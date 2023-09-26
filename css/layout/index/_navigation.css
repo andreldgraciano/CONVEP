@@ -22,7 +22,7 @@
 }
 
 .class__a {
-    color: var(--verde);
+    color: var(--laranja-vivo);
     font-size: 1.6rem;
     font-family: "Roboto Mono", monospace;
     text-decoration: underline;
@@ -73,11 +73,11 @@
     .navigation-mobile .navigation-mobile__li {
         padding: 1rem;
         text-align: center;
-        border-bottom: 1px solid #000;
+        border-bottom: 1px solid var(--laranja-vivo);
     }
 
     .navigation-mobile .navigation-mobile__a {
-        color: #000;
+        color: var(--laranja-vivo);
         font-size: 2rem;
     }
 }
