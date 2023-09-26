@@ -73,11 +73,11 @@
     .navigation-mobile .navigation-mobile__li {
         padding: 1rem;
         text-align: center;
-        border-bottom: 1px solid var(--laranja-vivo);
+        border-bottom: 1px solid #000;
     }
 
     .navigation-mobile .navigation-mobile__a {
-        color: var(--laranja-vivo);
+        color: #000;
         font-size: 2rem;
     }
 }
