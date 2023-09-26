@@ -22,7 +22,7 @@
     flex-direction: column;
     justify-content: center;
     margin-left: 10px;
-    color: var(--verde);
+    color: var(--laranja-vivo);
     font-size: 1.1rem;
 }
 
@@ -42,5 +42,5 @@
     font-size: 1.6rem;
     font-weight: 500;
     text-decoration: underline;
-    color: var(--verde);
+    color: var(--laranja-vivo);
 }
