@@ -1,10 +1,10 @@
 .footer {
     display: flex;
     flex-direction: column;
-    padding: 7rem 0;
+    padding: 7rem 0 5rem 0;
     color: rgb(180, 180, 180);
     width: 100rem;
-    margin: 2rem auto 5rem auto;
+    margin: 0 auto 5rem auto;
     gap: 10rem;
 }
 
@@ -16,12 +16,11 @@
 .footer .footer__comissao {
     display: flex;
     flex-direction: column;
-    gap: 1.5rem;
-    width: 33%;
 }
 
 .footer .footer__comissao h2 {
     font-size: 1.6rem;
+    width: 100%;
 }
 
 .footer .footer__comissao span {

@@ -1,0 +1,46 @@
+@import url("../../base/_colors.css");
+
+.programacao {
+    display: flex;
+    width: 120rem;
+    margin: 0 auto;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-size: 1.5rem;
+}
+
+.programacao__dia {
+    max-width: 45rem;
+    min-width: 30rem;
+    margin: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.programacao__dia-data {
+    color: var(--verde);
+    font-size: 2.4rem;
+    font-weight: bold;
+}
+
+.programacao__dia-atividade {
+    font-weight: bold;
+}
+
+.programacao__dia-detalhes-atividade {
+}
+
+@media screen and (max-width: 1366px) {
+    .programacao {
+        margin: 0 auto;
+        width: 100rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .programacao {
+        margin: 0 auto;
+        width: 35rem;
+    }
+}

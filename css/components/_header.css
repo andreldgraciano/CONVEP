@@ -1,0 +1,46 @@
+@import url("../base/_colors.css");
+
+.header {
+    width: 100rem;
+    display: flex;
+    justify-content: space-between;
+    margin: 50px auto;
+}
+
+.header__logo {
+    display: flex;
+}
+
+.header__logo-img {
+    height: 80px;
+}
+
+.header__logo-texto {
+    font-family: "Roboto Condensed", sans-serif;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10px;
+    color: var(--verde);
+    font-size: 1.1rem;
+}
+
+.header__logo-texto-slim {
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+
+.navigation {
+    display: flex;
+    width: 50%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.navigation__a {
+    font-size: 1.6rem;
+    font-weight: 500;
+    text-decoration: underline;
+    color: var(--verde);
+}

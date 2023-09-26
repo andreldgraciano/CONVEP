@@ -1,7 +1,6 @@
 @import url("../../base/_colors.css");
 
 .navigation {
-    background-color: #fff;
     padding: 1rem 0;
     margin-top: 7rem;
 }
@@ -23,7 +22,7 @@
 }
 
 .class__a {
-    color: #000;
+    color: var(--verde);
     font-size: 1.6rem;
     font-family: "Roboto Mono", monospace;
     text-decoration: underline;
