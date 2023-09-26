@@ -12,11 +12,13 @@
     flex-direction: column;
     gap: 1.5rem;
     background-color: var(--laranja-vivo);
+    height: 100%;
+    padding-bottom: 2rem;
 }
 
 .main__menu-a {
     font-size: 1.6rem;
-    margin-left: 2rem;
+    margin-left: 3rem;
     color: #fff;
     font-family: "Lato", sans-serif;
 }
@@ -25,7 +27,6 @@
     color: #fff;
     font-size: 1.7rem;
     font-weight: 700;
-    border: 1px solid #fff;
     padding: 1.4rem;
     margin-left: 0;
 }
