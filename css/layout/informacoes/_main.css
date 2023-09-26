@@ -16,15 +16,15 @@
 .main__menu-a {
     font-size: 1.6rem;
     margin-left: 2rem;
-    color: var(--verde);
+    color: var(--laranja-vivo);
     font-family: "Lato", sans-serif;
 }
 
 .main__menu-title {
-    color: var(--verde);
+    color: var(--laranja-vivo);
     font-size: 1.7rem;
     font-weight: 700;
-    border: 1px solid var(--verde);
+    border: 1px solid var(--laranja-vivo);
     padding: 1.4rem;
     margin-left: 0;
     border-radius: 0.5rem;
