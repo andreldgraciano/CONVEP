@@ -2,13 +2,13 @@
 
 .navigation {
     padding: 1rem 0;
-    margin-top: 7rem;
+    margin-top: 5rem;
 }
 
 .class__ul {
     display: flex;
     justify-content: center;
-    gap: 6rem;
+    gap: 2rem;
 }
 
 .class__li {
@@ -23,10 +23,10 @@
 
 .class__a {
     color: var(--laranja-vivo);
-    font-size: 1.6rem;
-    font-family: "Roboto Mono", monospace;
+    font-size: 1.8rem;
     text-decoration: underline;
     font-weight: 600;
+    letter-spacing: 0.1rem;
 }
 
 .navigation-mobile {

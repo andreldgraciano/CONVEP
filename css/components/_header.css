@@ -1,7 +1,7 @@
 @import url("../base/_colors.css");
 
 .header {
-    width: 100rem;
+    width: 120rem;
     display: flex;
     justify-content: space-between;
     margin: 50px auto;
@@ -16,7 +16,6 @@
 }
 
 .header__logo-texto {
-    font-family: "Roboto Condensed", sans-serif;
     width: 150px;
     display: flex;
     flex-direction: column;
@@ -33,14 +32,31 @@
 
 .navigation {
     display: flex;
-    width: 50%;
-    justify-content: space-evenly;
+    width: 45%;
+    justify-content: space-between;
     align-items: center;
 }
 
 .navigation__a {
-    font-size: 1.6rem;
-    font-weight: 500;
-    text-decoration: underline;
     color: var(--laranja-vivo);
+    font-size: 1.8rem;
+    text-decoration: underline;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+}
+
+@media screen and (max-width: 1366px) {
+    .header {
+        width: 100rem;
+        display: flex;
+        justify-content: space-between;
+        margin: 50px auto;
+    }
+
+    .navigation {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 768px) {
 }

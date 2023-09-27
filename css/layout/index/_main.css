@@ -2,7 +2,6 @@
     display: flex;
     align-items: center;
     margin: 5rem 15%;
-    font-family: "Roboto", sans-serif;
     justify-content: center;
 }
 
@@ -53,7 +52,6 @@
     margin: 15rem auto 7rem auto;
     row-gap: 4rem;
     font-size: 1.6rem;
-    font-family: "Roboto", sans-serif;
 }
 
 .main__programacao-resumos {

@@ -10,21 +10,22 @@
     width: 40rem;
     display: flex;
     flex-direction: column;
-    gap: 1.5rem;
     background-color: var(--laranja-vivo);
     height: 100%;
-    padding-bottom: 2rem;
 }
 
 .main__menu-a {
     font-size: 1.6rem;
-    margin-left: 3rem;
+    padding: 1rem 0 1rem 2rem;
     color: #fff;
-    font-family: "Lato", sans-serif;
+    color: var(--laranja-vivo);
+    background-color: #fff;
+    margin: 0.5rem;
 }
 
 .main__menu-title {
     color: #fff;
+    background-color: var(--laranja-vivo);
     font-size: 1.7rem;
     font-weight: 700;
     padding: 1.4rem;
@@ -71,5 +72,5 @@
 
 .main__conteudo-title {
     font-size: 3rem;
-    color: var(--verde);
+    color: var(--laranja-vivo);
 }
