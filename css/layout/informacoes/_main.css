@@ -75,6 +75,10 @@
     color: var(--laranja-vivo);
 }
 
+.lista-informacoes{
+    list-style: inside;
+}
+
 @media screen and (max-width: 1366px) {
     .main {
         width: 100rem;
