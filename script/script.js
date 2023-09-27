@@ -7,7 +7,7 @@ const buttonChange = document.getElementsByClassName(
 
 toggleButton.addEventListener("click", () => {
     if (animatedDiv.clientHeight === 0) {
-        animatedDiv.style.height = "180px";
+        animatedDiv.style.height = "185px";
     } else {
         animatedDiv.style.height = "0";
     }
