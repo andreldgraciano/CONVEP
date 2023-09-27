@@ -16,7 +16,7 @@
 }
 
 .article__paragraph {
-    width: 100rem;
+    width: 120rem;
     line-height: 2.9rem;
     font-size: 1.6rem;
     margin-top: 1.4rem;
@@ -26,20 +26,20 @@
     margin: 10rem auto;
     display: flex;
     flex-direction: column;
-    width: 100rem;
+    width: 120rem;
 }
 
 .map__texto {
     font-size: 1.2rem;
     margin-bottom: 1.6rem;
     display: inline;
-    width: 100rem;
+    width: 120rem;
     color: rgb(80, 80, 80);
 }
 
 .main__programacao {
     display: flex;
-    width: 100rem;
+    width: 120rem;
     flex-wrap: wrap;
     justify-content: space-between;
     margin: 15rem auto 7rem auto;
@@ -48,7 +48,7 @@
 }
 
 .main__programacao-resumos {
-    width: 45rem;
+    width: 55rem;
     display: flex;
     flex-direction: column;
 }
@@ -60,6 +60,7 @@
 
 .main__programacao-item {
     line-height: 3.5rem;
+    font-size: 1.6rem;
 }
 
 .main__programacao-link {
