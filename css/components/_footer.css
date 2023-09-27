@@ -16,6 +16,11 @@
 .footer .footer__comissao {
     display: flex;
     flex-direction: column;
+    gap: 1.2rem;
+}
+
+.footer__comissao.footer__comissao-centro {
+    width: 40%;
 }
 
 .footer .footer__comissao h2 {
@@ -57,14 +62,6 @@
         padding: 4rem 0;
         gap: 10rem;
         width: 100rem;
-    }
-
-    .footer .footer__pessoas {
-        gap: 16rem;
-    }
-
-    .footer .footer__comissao {
-        gap: 1.2rem;
     }
 
     .footer .footer__comissao h2 {

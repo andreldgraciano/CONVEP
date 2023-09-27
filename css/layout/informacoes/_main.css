@@ -17,10 +17,10 @@
 .main__menu-a {
     font-size: 1.6rem;
     padding: 1rem 0 1rem 2rem;
-    color: #fff;
     color: var(--laranja-vivo);
     background-color: #fff;
     margin: 0.5rem;
+    font-weight: 500;
 }
 
 .main__menu-title {

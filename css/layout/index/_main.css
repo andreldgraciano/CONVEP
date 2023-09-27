@@ -76,6 +76,7 @@
     text-decoration: underline;
     font-weight: 600;
     color: var(--verde);
+    font-size: 2rem;
 }
 
 @media screen and (max-width: 1366px) {

@@ -12,22 +12,23 @@
 }
 
 .header__logo-img {
-    height: 80px;
+    height: 90px;
+    margin: auto 0;
 }
 
 .header__logo-texto {
-    width: 150px;
+    width: 200px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin-left: 10px;
     color: var(--laranja-vivo);
-    font-size: 1.1rem;
+    font-size: 1.3rem;
 }
 
 .header__logo-texto-slim {
-    font-weight: 300;
-    font-size: 1.2rem;
+    font-weight: 400;
+    font-size: 1.8rem;
 }
 
 .navigation {
@@ -40,7 +41,6 @@
 .navigation__a {
     color: var(--laranja-vivo);
     font-size: 1.8rem;
-    text-decoration: underline;
     font-weight: 600;
     letter-spacing: 0.1rem;
 }
