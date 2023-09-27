@@ -1,9 +1,10 @@
 .main {
-    width: 100rem;
+    width: 120rem;
     margin: 0 auto;
     display: flex;
     margin-bottom: 7rem;
     gap: 2rem;
+    flex-wrap: wrap;
 }
 
 .main__menu {
@@ -73,4 +74,26 @@
 .main__conteudo-title {
     font-size: 3rem;
     color: var(--laranja-vivo);
+}
+
+@media screen and (max-width: 1366px) {
+    .main {
+        width: 100rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .main {
+        width: 35rem;
+    }
+
+    .main__conteudo {
+        padding: 0;
+    }
+
+    .main__conteudo-title {
+        font-size: 3rem;
+        line-height: 3.4rem;
+        color: var(--laranja-vivo);
+    }
 }

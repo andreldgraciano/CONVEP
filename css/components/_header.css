@@ -45,6 +45,10 @@
     letter-spacing: 0.1rem;
 }
 
+.navigation-mobile {
+    display: none;
+}
+
 @media screen and (max-width: 1366px) {
     .header {
         width: 100rem;
