@@ -1,31 +1,28 @@
 @import url("../../base/_colors.css");
 
 .navigation {
-    padding: 1rem 0;
-    margin-top: 5rem;
+    margin: 5rem auto 0 auto;
+    width: 100rem;
+    margin-bottom: 10rem;
 }
 
 .class__ul {
     display: flex;
-    justify-content: center;
-    gap: 2rem;
-}
-
-.class__li {
-    padding: 1rem;
-    display: inline-block;
-    position: relative;
-}
-
-.class__li:last-child::after {
-    display: none;
+    justify-content: end;
+    gap: 4rem;
 }
 
 .class__a {
+    padding: 2rem 1rem;
     color: var(--laranja-vivo);
     font-size: 1.8rem;
     font-weight: 600;
     letter-spacing: 0.1rem;
+    transition: all 0.3s;
+}
+
+.class__li:hover {
+    transform: scale(1.3);
 }
 
 .navigation-mobile {
@@ -35,6 +32,7 @@
 @media screen and (max-width: 1366px) {
     .navigation {
         margin-top: 5rem;
+        width: 90rem;
     }
 
     .class__a {
