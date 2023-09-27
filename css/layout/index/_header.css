@@ -97,14 +97,15 @@
     }
 
     .header__titulo {
-        font-size: 3rem;
+        margin-top: 20vh;
+        font-size: 2.8rem;
         margin-bottom: 1rem;
     }
 
     .header__subtitulo {
         font-size: 1.6rem;
-        padding: 0.6rem 1.2rem;
-        margin-bottom: 40vh;
+        padding: 0.6rem 4.3rem;
+        margin-bottom: 20vh;
     }
 
     .header__local {
@@ -113,6 +114,6 @@
     }
 
     .header__data {
-        font-size: 2rem;
+        font-size: 2.1rem;
     }
 }
