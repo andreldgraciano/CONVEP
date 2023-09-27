@@ -96,4 +96,18 @@
         line-height: 3.4rem;
         color: var(--laranja-vivo);
     }
+
+    .main__conteudo-atividade {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .main__conteudo-atividade-titulo {
+        width: 100%;
+    }
+
+    .main__conteudo-atividade-resumo {
+        width: 100%;
+    }
 }
