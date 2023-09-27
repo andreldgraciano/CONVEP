@@ -4,7 +4,6 @@
     display: flex;
     margin-bottom: 7rem;
     gap: 2rem;
-    flex-wrap: wrap;
 }
 
 .main__menu {
@@ -85,6 +84,7 @@
 @media screen and (max-width: 768px) {
     .main {
         width: 35rem;
+        flex-wrap: wrap;
     }
 
     .main__conteudo {
