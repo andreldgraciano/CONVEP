@@ -21,7 +21,7 @@
 }
 
 .header__titulo {
-    margin-top: 15vh;
+    margin-top: 7vh;
     color: var(--laranja-vivo);
     font-size: 9.3rem;
     font-weight: 900;
@@ -35,7 +35,7 @@
     font-size: 4.5rem;
     font-weight: 600;
     padding: 0.8rem 21.1rem;
-    margin-bottom: 15vh;
+    margin-bottom: 7vh;
 }
 
 .header__local {
