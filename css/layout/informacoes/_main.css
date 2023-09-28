@@ -22,6 +22,12 @@
     background-color: #d9d8d6;
     margin: 0.2rem 0.3rem;
     font-weight: 500;
+    transition: all 0.3s;
+}
+
+.main__menu-a:hover {
+    transform: scale(1.05);
+    border: 2px solid var(--laranja-vivo);
 }
 
 .main__menu-title {
@@ -31,6 +37,11 @@
     font-weight: 700;
     padding: 1.4rem;
     margin-left: 0;
+}
+
+.main__menu-title:hover {
+    transform: scale(1.035);
+    border: none;
 }
 
 .main__conteudo {
