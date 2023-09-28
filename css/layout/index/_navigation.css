@@ -67,6 +67,7 @@
         overflow: hidden;
         transition: height 0.3s ease;
         text-align: center;
+        margin-top: 2rem;
     }
 
     .navigation-mobile .navigation-mobile__li {
