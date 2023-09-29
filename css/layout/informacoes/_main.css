@@ -12,7 +12,7 @@
     flex-direction: column;
     background-color: var(--laranja-vivo);
     height: 100%;
-    padding-bottom: 0.2rem;
+    padding-bottom: 0.1rem;
 }
 
 .main__menu-a {
@@ -34,13 +34,14 @@
     background-color: var(--laranja-vivo);
     font-size: 1.7rem;
     font-weight: 700;
-    padding: 1.1rem 1.4rem;
+    padding: 1.rem 1.4rem;
     margin-left: 0;
+    border: none;
+
 }
 
 .main__menu-title:hover {
-    transform: scale(1.035);
-    border: none;
+    transform: scale(1.05);
 }
 
 .main__conteudo {
