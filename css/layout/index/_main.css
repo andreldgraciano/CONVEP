@@ -12,6 +12,7 @@
 
 .article__titulo {
     font-size: 3.4rem;
+    font-weight: 800;
     color: var(--laranja-vivo);
 }
 
@@ -55,6 +56,7 @@
 
 .main__programacao-titulo {
     font-size: 2.4rem;
+    font-weight: 800;
     color: var(--laranja-vivo);
 }
 
