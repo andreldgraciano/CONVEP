@@ -20,14 +20,13 @@
     padding: 1rem 0 1rem 2rem;
     color: var(--laranja-vivo);
     background-color: #d9d8d6;
-    margin: 0.2rem 0.3rem;
     font-weight: 500;
     transition: all 0.3s;
+    border: 2px solid var(--laranja-vivo);
 }
 
 .main__menu-a:hover {
     transform: scale(1.05);
-    border: 2px solid var(--laranja-vivo);
 }
 
 .main__menu-title {
